@@ -16,7 +16,7 @@ public class TestFacebook {
 		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("ya_2lbi_f@hotmail.com");
 		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("fatoon2332018");
 
-		
+		//f
 		driver.findElement(By.xpath(".//*[@id='u_0_2']")).click();
 	}
 
