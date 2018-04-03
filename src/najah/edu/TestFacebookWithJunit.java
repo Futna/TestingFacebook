@@ -24,8 +24,8 @@ public class TestFacebookWithJunit {
 	public void test() {
 		driver.get("http://www.facebook.com");
 		driver.manage().window().maximize();
-		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("myemail");
-		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("123456");
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("ya_2lbi_f@hotmail.com");
+		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("fatoon2332018");
 
 		driver.findElement(By.xpath(".//*[@id='u_0_2']")).click();
 	}
